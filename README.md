@@ -1,5 +1,15 @@
 # beauty-salon
 
+## This is a project about a beauty salon
+---
+## Technologies what i used
+---
+- Html
+- Css
+- Bootstrap
+
+### Screenshot is below
+
 
 
 
