@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: #B38F3A;
+}
+
+#header{
+    padding-top: 76px;
+}
+
+.navbar-brand{
+    color: #B38F3A;
+}
+
+.nav-link{
+    font-size: 16px;
+    color:#B38F3A;
+}
+
+.header-logo{
+    width: 50px;
+}
+
+.fa-bars{
+    color: #B38F3A;
+}
+
+#sliders{
+    background-color:#212529;
+}
+
+.slider-img{
+    height: 600px;
+}
+
+.w-100-height{
+    width: 100%;
+    height: 80vh;
+}
+
+.carousel-icons{
+    color:#B38F3A;
+    font-size: 40px;
+}
+
+.carousel-item::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.carousel-caption{
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 50px;
+    color:#fff;
+    font-weight: none;
+}
+
+.carousel-caption p{
+    font-size: 20px;
+    color: #fff;
+}
+
+#about-us{
+    background-color:#f2f2f2 ;
+}
+
+.seperator{
+    border: none;
+    border-top: 3px solid #B38F3A;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.leaf-gray{
+    color: #B38F3A;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.leaf-white{
+    color: #B38F3A;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #fff;
+    background-color: #fff;
+}
+
+.team-card:hover{
+    transform: translateY(-10px);
+    transition: all ease-in-out 0.5s;
+}
+
+.card{
+    border:1px solid rgba(52, 58, 64,0.5);
+    padding: 5px;
+}
+
+#gallery{
+    background-color: #f2f2f2;
+}
+
+.figure:hover{
+    opacity: 0.8;
+    transform: scale(1.02);
+    transition: all ease-in-out .5s;
+}
+
+.figure img{
+    height: 220px;
+}
+
+fieldset{
+    border:1px solid #B38F3A;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.btn-custom{
+    background-color: #343a40;
+    color:#B38F3A;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    transition: all ease-in-out .5s;
+}
+
+.btn-custom:hover{
+    background-color: #B38F3A;
+    color: #fff;
+}
+
+.hr-footer{
+    border: 1px solid #B38F3A;
+    width: 50%;
+    margin: 0 auto;
+}
